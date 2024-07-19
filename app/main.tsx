@@ -7,7 +7,7 @@ export default function Main() {
         <div className={`${notoSansMono.className} relative px-2 pt-5 pb-3`}>
           <div className="relative z-10">
             <p className="px-10 sm:px-12 pt-8 pb-10 font-light text-center text-pretty text-emerald-950 text-xl sm:text-2xl leading-tight sm:leading-tight">
-              I'm a full stack developer skilled at building eleganty-crafted software solutions for business partners to increase the effectiveness and efficiency of operations.
+              I&apos;m a full stack developer skilled at building eleganty-crafted software solutions for business partners to increase the effectiveness and efficiency of operations.
             </p>
           </div>
           <div className="w-full h-full absolute top-0 z-0">
