@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-emerald-100: 209 250 229;
+  --bg-emerald-dark: 54 59 53 / 0.9;
+}
+
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.turbulentBackground {
+  filter: url("#turbulentFilter")
+}
+
+.noiseBackground {
+  filter: url("#noise")
+}
